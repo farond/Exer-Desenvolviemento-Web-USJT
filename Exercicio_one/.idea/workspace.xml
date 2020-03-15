@@ -21,41 +21,96 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Geometria">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.App" />
+  <component name="RunManager" selected="JUnit.RetanguloTeste">
+    <configuration name="CirculoTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exercicio_one" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="app.*" />
+          <option name="PATTERN" value="Teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Teste" />
+      <option name="MAIN_CLASS_NAME" value="Teste.CirculoTeste" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Geometria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.Geometria" />
+    <configuration name="QuadradoTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exercicio_one" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="app.*" />
+          <option name="PATTERN" value="Teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Teste" />
+      <option name="MAIN_CLASS_NAME" value="Teste.QuadradoTeste" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RetanguloTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercicio_one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Teste" />
+      <option name="MAIN_CLASS_NAME" value="Teste.RetanguloTeste" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Teste in Exercicio_one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercicio_one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Teste" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrianguloTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercicio_one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Teste" />
+      <option name="MAIN_CLASS_NAME" value="Teste.TrianguloTeste" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Geometria" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.RetanguloTeste" />
+        <item itemvalue="JUnit.CirculoTeste" />
+        <item itemvalue="JUnit.QuadradoTeste" />
+        <item itemvalue="JUnit.Teste in Exercicio_one" />
+        <item itemvalue="JUnit.TrianguloTeste" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +126,8 @@
       <updated>1583507203628</updated>
       <workItem from="1583507210595" duration="7408000" />
       <workItem from="1583768788515" duration="7872000" />
-      <workItem from="1583938138024" duration="8559000" />
+      <workItem from="1583938138024" duration="9059000" />
+      <workItem from="1584224815210" duration="7747000" />
     </task>
     <servers />
   </component>
@@ -79,6 +135,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584234194272">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584234194272" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1583956524325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -87,33 +147,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="246" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583769074376" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583957217145">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584236609070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583957217145" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583957217145">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584236609070" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584236609070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583957217145" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583957217144">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584236609070" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584236609069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583957217144" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583957217145">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584236609069" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584236609070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583957217145" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584236609070" />
     <state x="770" y="358" key="NewModule_or_Project.wizard" timestamp="1583769135039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="770" y="358" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583769135039" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1583938887960">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1584224897520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583938887960" />
-    <state x="702" y="148" key="refactoring.ChangeSignatureDialog" timestamp="1583773937526">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584224897520" />
+    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584231052610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="702" y="148" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583773937526" />
+    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1584231052610" />
+    <state x="702" y="148" key="refactoring.ChangeSignatureDialog" timestamp="1584231923422">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="702" y="148" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584231923422" />
   </component>
 </project>

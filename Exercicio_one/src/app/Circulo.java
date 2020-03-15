@@ -17,7 +17,8 @@ public class Circulo extends Figura {
     public double getRaio() {
         return raio;
     }
-    public void setRaio(double raio) {
+
+    public void setRaio(Double raio) {
         this.raio = raio;
     }
 
