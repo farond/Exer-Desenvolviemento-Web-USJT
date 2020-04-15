@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Gerenciador de Professores</title>
+<link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"
+	rel="stylesheet" />
+	
+	<link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+	<div class="panel panel-default" style="margin: 10px">
+		<div class="panel-heading">
+			<h1 class="panel-title">Gerenciador de Professores</h1>
+
+		</div>
+
+
+		<form class="form-inline" method="get" th:object="${professor}" style="margin: 20px 0">
+			<div class="form-group">
+					<input type="text" class="form-control" placeholder="Id" th:field="*{matricula}"/> 
+					<button type="submit" class="btn btn-primary">Buscar</button>
+			</div>
+		</form> 		
+					 
+		<div class="panel-body">
+			<table class="table">
+
+				<tbody>
+					<tr th:each="professor : ${professor}">					
+						
+						<table class="table">
+							<thead>				
+								<tr>
+									<th>Matricula</th>
+									<th>CPF</th>
+									<th>Nome</th>
+									<th>Endereço</th>									
+									</tr>
+							</thead>
+							<tbody>
+								<tr th:each="${professor}">
+									<td th:text="${professor.cpf}"></td>
+									<td th:text="${professor.nome}"></td>
+									<td th:text="${clima.endereco}"></td>
+									
+							</tr>
+							</tbody>
+							</tbody>
+			</table>
+		</div>
+	</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
