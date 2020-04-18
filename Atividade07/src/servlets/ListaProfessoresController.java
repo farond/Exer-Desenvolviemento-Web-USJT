@@ -50,7 +50,7 @@ public class ListaProfessoresController extends HttpServlet {
 								+"<td>"+professor.getNome()+"</td>"
 								+"<td>"+professor.getCpf()+"</td>"
 								+"<td>"+professor.getEndereco()+"</td>"
-								+"<td><a href=editar.html?matricula="+professor.getMatricula()+">Atualizar</a></td>"
+								+"<td><a href=atualizaProfessor.do?matricula="+professor.getMatricula()+">Atualizar</a></td>"
 								+"<td><a href=excluirProfessor.do?matricula="+professor.getMatricula()+">excluir</a></td>"
 							+"</tr>"
 					+"</table>");
